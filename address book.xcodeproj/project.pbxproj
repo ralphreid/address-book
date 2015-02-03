@@ -81,6 +81,7 @@
 		CAA0A29B1A7FF0DD0064545A /* address book */ = {
 			isa = PBXGroup;
 			children = (
+				CAA0A2C21A7FF3600064545A /* model */,
 				CAA0A2A01A7FF0DD0064545A /* AppDelegate.h */,
 				CAA0A2A11A7FF0DD0064545A /* AppDelegate.m */,
 				CAA0A2A31A7FF0DD0064545A /* ViewController.h */,
@@ -117,6 +118,13 @@
 				CAA0A2B71A7FF0DD0064545A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAA0A2C21A7FF3600064545A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +422,7 @@
 				CAA0A2BE1A7FF0DD0064545A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAA0A2BF1A7FF0DD0064545A /* Build configuration list for PBXNativeTarget "address bookTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				CAA0A2C11A7FF0DD0064545A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
