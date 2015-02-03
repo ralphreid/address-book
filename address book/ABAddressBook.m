@@ -8,6 +8,13 @@
 
 #import "ABAddressBook.h"
 
+@interface ABAddressBook ()
+
+@property (nonatomic, strong) NSMutableArray *contacts;
+
+@end
+
+
 @implementation ABAddressBook
 
 
@@ -23,7 +30,7 @@
 
 - (void)addContact:(ABContact *)contact
 {
-    
+    [self.contacts addObject:contact];
 }
 
 - (void)removeContact:(ABContact *)contact
