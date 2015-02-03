@@ -14,6 +14,8 @@
 		CAA0A2AA1A7FF0DD0064545A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA0A2A91A7FF0DD0064545A /* Images.xcassets */; };
 		CAA0A2AD1A7FF0DD0064545A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA0A2AB1A7FF0DD0064545A /* LaunchScreen.xib */; };
 		CAA0A2B91A7FF0DD0064545A /* address_bookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA0A2B81A7FF0DD0064545A /* address_bookTests.m */; };
+		CAA0A2C81A80F1220064545A /* ABContact.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA0A2C71A80F1220064545A /* ABContact.m */; };
+		CAA0A2CB1A80F14C0064545A /* ABAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA0A2CA1A80F14C0064545A /* ABAddressBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		CAA0A2B21A7FF0DD0064545A /* address bookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "address bookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA0A2B71A7FF0DD0064545A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAA0A2B81A7FF0DD0064545A /* address_bookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = address_bookTests.m; sourceTree = "<group>"; };
+		CAA0A2C61A80F1220064545A /* ABContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABContact.h; sourceTree = "<group>"; };
+		CAA0A2C71A80F1220064545A /* ABContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABContact.m; sourceTree = "<group>"; };
+		CAA0A2C91A80F14C0064545A /* ABAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABAddressBook.h; sourceTree = "<group>"; };
+		CAA0A2CA1A80F14C0064545A /* ABAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABAddressBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 		CAA0A2C21A7FF3600064545A /* model */ = {
 			isa = PBXGroup;
 			children = (
+				CAA0A2C61A80F1220064545A /* ABContact.h */,
+				CAA0A2C71A80F1220064545A /* ABContact.m */,
+				CAA0A2C91A80F14C0064545A /* ABAddressBook.h */,
+				CAA0A2CA1A80F14C0064545A /* ABAddressBook.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -228,7 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAA0A2A51A7FF0DD0064545A /* ViewController.m in Sources */,
+				CAA0A2C81A80F1220064545A /* ABContact.m in Sources */,
 				CAA0A2A21A7FF0DD0064545A /* AppDelegate.m in Sources */,
+				CAA0A2CB1A80F14C0064545A /* ABAddressBook.m in Sources */,
 				CAA0A29F1A7FF0DD0064545A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
