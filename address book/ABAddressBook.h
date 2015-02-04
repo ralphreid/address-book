@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ABContact.h"
 
 @interface ABAddressBook : NSObject
+
+- (NSArray *)sortedContacts;
+- (NSUInteger)numberOfContacts;
+- (void)addContact:(ABContact *)contact;
+- (void)removeContact:(ABContact *)contact;
+- (void)clearAllContacts;
+
 
 @end

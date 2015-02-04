@@ -20,12 +20,12 @@
 
 - (NSArray *)sortedContacts
 {
-    
+    return nil;
 }
 
 - (NSUInteger)numberOfContacts
 {
-    
+    return 6;
 }
 
 - (void)addContact:(ABContact *)contact
